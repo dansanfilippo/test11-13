@@ -167,8 +167,6 @@ a:hover {
  .paddingdown{
      padding-bottom: 60px;
  }
- .sqaurepadding
- {
-     padding-top: 18;
-
- }
+.paddingTop{
+    padding-top: 10px;
+}
