@@ -1,97 +1,151 @@
 body {
-    font-family: Helvetica, "Helvetica Neue", SansSerif;
+    overflow: scroll;
+
 }
 
 #wrapper {
     width: 960px;
-    margin-left: auto;
-    margin-right: auto;
 }
-#menu {
-    background-color: antiquewhite;
-    height: 80px;
-    line-height: 80px;
-    width: 368px;
-    float: left;
+#top {
+    height: 135px;
+    line-height: 135px;
 }
 #logo {
-    width: 592px;
-    float: left;
-}
-#menu ul {
-    margin: 0px;
+    height: 135px;
 }
 
-#menu li {
+#sideCard {
+    padding: 18px;
+}
+#banner {
+    background-image: url("../images/4x4-adventure-automobile-1571783.jpg");
+    background-size: cover;
+    height: 367px;
+    position: relative;
+}
+#main {
+    margin-top: 31px;
+}
+#panel1, #panel2, #panel3 {
+    width: 320px;
+}
+#footer {
+    height: 100px;
+    line-height: 100px;
+}
+
+#banner h1 {
+    position: relative;
+    top: 115px;
+    left: 100px;
+}
+.contentMargin {
+    margin-left: 31px;
+    margin-right: 31px;
+}
+.contentText {
+    margin-left: 31px;
+}
+.panelMargin {
+    margin-left: 62px;
+    margin-right: 31px;
+}
+.panelOlMargin {
+    margin-left: 31px;
+    margin-right: 31px;
+}
+
+.panelHeadingMargin {
+    margin-left:31px;
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
+.topMargin {
+    margin-top: 31px;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.fullPercent {
+    width: 100%;
+    height: 100%;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.thinBorder {
+    border: 1px black solid;
+}
+
+.marginCenter {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.displayInline {
     display: inline;
 }
 
-#banner {
-    clear: both;
-    background-image: url("../images/traventure.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 500px;
-
-
-}
-
-#hero-text {
-    position: relative;
-    background-color: white;
-    width: 367px;
-    top: 50px;
-    left: 100px;
-}
-#hero-text h1 {
-    margin: 0px;
-}
-.std-padding {
+.sqrPadding {
     padding-left: 31px;
     padding-right: 31px;
 }
-
-.borderThin {
-    border: 1px solid black;
-
+.wrapperPaddingRight {
+    padding-right: 31px;
 }
-#content {
-    width: 544px;
-    background-color: green;
-    padding-left: 24px;
-    padding-right: 24px;
-    line-height: 27px;
-
-}
-
 .floatLeft {
     float: left;
 }
-#sidebar {
-    background-color: chocolate;
-    width: 368px;
+
+.clearMargin {
+    margin: 0px;
 }
 
-.clear-fix {
-    clear:both;
-}
-#footer {
-    background-color: bisque;
-
+.clearPadding {
+    padding: 0px;
 }
 
-.centerText {
+.clearFix {
+    clear: both;
+}
+.grSmallPadding {
+    padding-left: 19px;
+    padding-right: 19px;
+}
+.grSmall {
+    width: 329px;
+}
+.grBigPadding {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.grBig {
+    width: 600px;
+}
+
+.grFont {
+    line-height: 27px;
+    font-size: 16px;
+}
+
+.Helvetica {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.textRight {
+    text-align: right;
+}
+
+.alignRight {
+    text-align: right;
+}
+
+.alignCenter {
     text-align: center;
-
-}
-
-#panel1, #panel2, #panel3 {
-
-    float: left;
-    width: 256px;
-
-
-}
-#panel3 {
-    background-color: green;
 }
