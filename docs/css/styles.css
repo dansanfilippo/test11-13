@@ -20,20 +20,31 @@ body {
 #banner {
     background-image: url("../images/4x4-adventure-automobile-1571783.jpg");
     background-size: cover;
-    height: 367px;
+    height: 554px;
     position: relative;
+    color: white;
+}
+#banner-text{
+    background-color: rgba(000, 000, 000, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 554px;
+    width:480px;
 }
 #main {
     margin-top: 31px;
 }
-#panel1, #panel2, #panel3 {
-    width: 320px;
-}
+
 #footer {
+    background-color: black;
+    color:white;
     height: 100px;
     line-height: 100px;
 }
-
+#tag{
+    color:dodgerblue;
+}
 #banner h1 {
     position: relative;
     top: 115px;
