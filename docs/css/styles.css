@@ -128,8 +128,8 @@ a:hover {
     clear: both;
 }
 .grSmallPadding {
-    padding-left: 19px;
-    padding-right: 19px;
+    padding-left: 18px;
+    padding-right: 18px;
 }
 .grSmall {
     width: 329px;
@@ -139,7 +139,7 @@ a:hover {
     padding-right: 24px;
 }
 .grBig {
-    width: 600px;
+    width: 545px;
 }
 
 .grFont {
@@ -164,4 +164,11 @@ a:hover {
 }.alignLeft{
     text-align: left;
  }
+ .paddingdown{
+     padding-bottom: 60px;
+ }
+ .sqaurepadding
+ {
+     padding-top: 18;
 
+ }
