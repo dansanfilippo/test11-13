@@ -44,8 +44,10 @@ body {
     line-height: 100px;
 }
 #tag{
-    color:dodgerblue;
+    color:blue;
 }
+
+
 #banner h1 {
     position: relative;
     top: 115px;
@@ -159,6 +161,7 @@ a:hover {
 
 .alignCenter {
     text-align: center;
-}
-.alignbanner{
-}
+}.alignLeft{
+    text-align: left;
+ }
+
